@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="methods" thread-count="1"
+       configfailurepolicy="continue">
+    <test name="Tests" preserve-order="true">
+        <classes>
+<!--            <class name="com.starwars.tests.api.GetCharactersTests"></class>-->
+<!--            <class name="com.starwars.tests.api.LikesTests"></class>-->
+<!--            <class name="com.starwars.tests.api.ViewsTests"></class>-->
+<!--            <class name="com.starwars.tests.api.ContactUsTests"></class>-->
+<!--            <class name="com.starwars.tests.api.AuthenticationTests"></class>-->
+
+            <class name="com.starwars.tests.ui.AboutTests"></class>
+            <class name="com.starwars.tests.ui.CharactersTests"></class>
+            <class name="com.starwars.tests.ui.ContactUsTests"></class>
+            <class name="com.starwars.tests.ui.HomeTests"></class>
+        </classes>
+    </test>
+</suite>
